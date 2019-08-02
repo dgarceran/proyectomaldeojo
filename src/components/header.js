@@ -1,15 +1,14 @@
 import React from "react"
 import { Link } from "gatsby"
 import styles from "./header.module.css"
+import Menu from "./header-menu.js"
 
 export default props => (
-	<header>
-		<h1>Mal de ojo</h1>
-		<ul>
-			<li><Link to="">Home</Link></li>
-			<li><Link to="/manifiesto">Manifiesto</Link></li>
-			<li><Link to="/envia">Envía</Link></li>
-		</ul>
-		<h2>{props.subHeader}</h2>
+	<header class="row">
+		<div class="col-12">
+			<h1>Mal de ojo</h1>
+			<Menu />
+			<h2>{props.subHeader}</h2>
+		</div>
 	</header>
 	)
