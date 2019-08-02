@@ -1,10 +1,14 @@
 import React from "react"
-import Layout from "../components/layout"
+import Layout from "../../components/layout"
+import { Link } from "gatsby"
+import Languages from "../../components/links-languages.js"
 
 export default () => (
   <div>
-    <Layout subHeader='Manifiesto'>
+    <Layout>
 	    <article>
+	    	<h2>Manifiesto - Castellano</h2>
+	    	<Languages />
 		    <p>Parece que en los últimos años un gran número de pequeñas e importantes resistencias están ocurriendo por todo el mundo, cada una con su valor de diversidad y articulación. A la vez, el resurgimiento de una nueva y potente derecha nos hace sonar la alarma sobre el futuro de nuestra sociedad y los daños que estos movimientos tóxicos pueden incurrir. El sistema capitalista puede llegar a dominar los espacios que compartimos, y con sutileza, acaba ahogando opiniones más diversas o perspicaces al perpetrar reglas rígidas en cómo debemos realizar nuestras prácticas. Las preguntas pertinentes son múltiples, tales como qué grado de intervención se necesita o qué responsabilidad es necesaria para garantizar que las prácticas autónomas y antiautoritarias se sostengan.</p>
 		    <p>Mal de ojo, poéticamente aludido como esta fuerza metafísica y abstracta, es la condición mística que aludimos al hacernos capaces de desdoblar las aristas del Orbe a fin de que los reflejos de este mundo también sufran con lo que sentimos dentro. Ojo es quizás la palabra que nos ha sido legada intacta a través de la cual todavía es posible atisbar el principio de la vida en sí. El ojo cuando se acerca a la mirada, destruye, reconstruye o le da vida a las imágenes que se asoman. En nuestra cabeza somos capaces de recrear lo que vemos, y en un parpadeo incontrolable, lo que vemos nos ofrece un puñado de informaciones distorsionadas, escorzos de pared y calle que reanudan una obtusa espiritualidad bajo una luz ciega que viene del sol o en la ausencia de él.</p>
 		    <p>La habilidad de interferir en el campo visual rutinario y de ver en lo invisible es más que extraordinario; reclamar a través de la imágen resquicios de humanidad - lo poco que nos queda - es tarea de valientes. Entender este mundo nunca ha sido ni será una labor a ser desprendida sin coraje, pues aquellos que se dedican a registrar los movimientos de nuestras vidas tiene un valor de arrojo vital que desafortunadamente se nos escapa reconocer.</p>

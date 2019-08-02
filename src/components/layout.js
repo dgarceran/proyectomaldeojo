@@ -2,7 +2,9 @@ import React from "react"
 import Header from "./header.js"
 import "./bootstrap.min.css"
 
-export default ({children}) => (
+export default ({children}) => {
+
+  return (
   <div class="container">
     <div class="row">
       <div class="col-md-3">
@@ -13,3 +15,4 @@ export default ({children}) => (
       </div>
     </div>
   </div>)
+}
