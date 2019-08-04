@@ -2,16 +2,16 @@ import React from "react"
 import Header from "./header.js"
 import "./bootstrap.min.css"
 
-export default ({children}) => {
-
+export default (props) => {
+  console.log(props)
   return (
-  <div class="container">
-    <div class="row">
-      <div class="col-md-3">
-        <Header/>
+  <div className="container">
+    <div className="row">
+      <div className="col-md-3">
+        <Header currentLanguage={props.currentLanguage}/>
       </div>
-      <div class="col-md-9">
-        {children}
+      <div className="col-md-9">
+        {props.children}
       </div>
     </div>
   </div>)

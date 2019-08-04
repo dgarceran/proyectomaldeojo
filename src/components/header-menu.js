@@ -1,11 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
-import styles from "./header.module.css"
 
-export default props => (
+export default props => {
+	return (
 	<ul>
-		<li><Link to="">Home</Link></li>
-		<li><Link to="/manifiesto">Manifiesto</Link></li>
-		<li><Link to="/envia">Envía</Link></li>
+		<li><Link to={props.currentLanguage}>Home</Link></li>
+		<li><Link to={props.currentLanguage + "/manifiesto" }>Manifiesto</Link></li>
+		<li><Link to={props.currentLanguage + "/envia" }>Envía</Link></li>
 	</ul>
-)
+)}

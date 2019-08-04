@@ -7,10 +7,17 @@
 module.exports = {
     plugins: [
     {
-      resolve: `gatsby-plugin-typography`,
+      resolve: 'gatsby-plugin-typography',
       options: {
-        pathToConfigModule: `src/utils/typography`,
+        pathToConfigModule: 'src/utils/typography',
       },
-    },
+  	},
+      {
+      resolve: 'gatsby-plugin-i18n',
+      options: {        
+        langKeyDefault: 'es',
+        useLangKeyLayout: false
+      }
+  	}
   ]
 }
