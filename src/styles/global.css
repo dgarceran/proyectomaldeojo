@@ -2,6 +2,10 @@
  * Content
  */
 
+ .langs {
+	font-size: 12px;
+}
+
 body {
 	background-color: #fff;
 	color: #000;

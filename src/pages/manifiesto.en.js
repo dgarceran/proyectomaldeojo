@@ -5,12 +5,13 @@ import Languages from "../components/links-languages.js"
 
 export default () => {
 	const pageName = 'manifiesto';
+	
 	return(
   <div>
     <Layout currentLanguage='en'>
 	    <article>
 	    	<h2>Manifest - English</h2>
-	    	<Languages pageName={pageName}/>
+	    	<Languages pageName={pageName} />
 		    <p>It seems like in recent years a large number of small and vital resistances are occurring all over the world, each showing its diversity and articulation values. At the same time, a new and powerful right-wing resurgence makes us ring the alarm for the future of our society and the damage that this toxic movement may incur. </p>
 		    <p>The capitalist system may come to dominate the spaces we share. Subtlety ends up drowning out more diverse or insightful opinions by perpetrating rigid rules on how we should carry out our practices. The pertinent questions are multiple, such as what degree of intervention is needed, or what responsibility is necessary to ensure autonomous and sustainable anti-authoritarian practices. </p>
 		    <p>Alluded poetically as this metaphysical and abstract force, Mal de Ojo is the mystical condition alluded to when we become capable of unfolding the edges of the Orb so that the reflections of this world also suffer with what we feel in our midst.</p>

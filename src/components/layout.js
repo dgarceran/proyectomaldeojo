@@ -3,7 +3,6 @@ import Header from "./header.js"
 import "./bootstrap.min.css"
 
 export default (props) => {
-  console.log(props)
   return (
   <div className="container">
     <div className="row">

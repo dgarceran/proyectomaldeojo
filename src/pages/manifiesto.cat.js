@@ -5,12 +5,13 @@ import Languages from "../components/links-languages.js"
 
 export default () => {
 	const pageName = 'manifiesto';
+	
 	return (
   <div>
     <Layout currentLanguage='cat'>
 	    <article>
 	    	<h2>Manifest - Català</h2>
-	    	<Languages pageName={pageName}/>
+	    	<Languages pageName={pageName} />
 		    <p>Segons sembla, en els darrers anys estan apareixent arreu del món un gran nombre de resistències, petites i importants, cada una d'elles amb el seu valor de diversitat i d'articulació. Paral·lelament, el ressorgiment d'una dreta nova i potent fa que s’activin totes les alarmes sobre el futur de la nostra societat i dels danys que aquests moviments tòxics poden comportar. El sistema capitalista pot acabar dominant els espais que compartim i, amb subtilesa, acabar ofegant opinions diverses i perspicaces, perpetuant regles rígides sobre com hem de realitzar les nostres pràctiques. Les preguntes que ens plantegem al respecte són múltiples, com quin grau d'intervenció es necessita o quina responsabilitat és necessària per garantir que les pràctiques autònomes i antiautoritàries siguin sostenibles.</p>
 		    <p>El mal d’ull, al·ludint poèticament a una força metafísica i abstracta, és la condició mística que invoquem en fer-nos capaces de desplegar les arestes de l'Orbe amb la finalitat de que els reflexos d'aquest món també tremolin amb el que sentim a dins. Ull és la paraula que ens ha arribat intacta, a partir de la qual ens és encara possible entrellucar el mateix inici de la vida. L'ull, quan s'apropa a la mirada, destrueix, reconstrueix o dóna vida a les imatges que s’entreveuen. Dins del nostre cap som capaços de compondre allò que veiem, i en un parpelleig incontrolable, oferir-nos un grapat d'informacions distorsionades, escorços de paret i  de carrer que reprenen una obtusa espiritualitat sota una llum cega que ve del sol o de la seva absència.</p>
 		    <p>L'habilitat d'interferir en el camp visual rutinari i de veure-hi en allò que és invisible va més enllà de l'extraordinari; reclamar a través de les imatges les poques escletxes d'humanitat que ens queden és tasca de valents. Entendre el món no és ni serà una feina que es pugui separar del coratge, ja que aquells que es dediquen a registrar els moviments de les nostres vides tenen una valentia intrèpida i vital que per desgràcia no és prou reconeguda.</p>
