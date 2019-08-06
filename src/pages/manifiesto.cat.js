@@ -8,7 +8,7 @@ export default () => {
 	
 	return (
   <div>
-    <Layout currentLanguage='cat'>
+    <Layout currentLanguage='cat' pageName={pageName}>
 	    <article>
 	    	<h2>Manifest - Català</h2>
 	    	<Languages pageName={pageName} />

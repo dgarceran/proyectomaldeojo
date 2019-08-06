@@ -10,7 +10,7 @@ export default () => {
 
 	return (
   <div>
-    <Layout currentLanguage='cat'>
+    <Layout currentLanguage='cat' pageName={pageName}>
         <article>
             <h2>Inscriu-te</h2>
             <Languages pageName={pageName}/>

@@ -12,12 +12,15 @@ module.exports = {
         pathToConfigModule: 'src/utils/typography',
       },
   	},
-      {
+    {
       resolve: 'gatsby-plugin-i18n',
       options: {        
         langKeyDefault: 'es',
         useLangKeyLayout: false
       }
-  	}
+  	},
+    {
+      resolve: `gatsby-plugin-react-helmet`
+    }
   ]
 }

@@ -8,7 +8,7 @@ export default () => {
 	
 	return(
   <div>
-    <Layout currentLanguage='en'>
+    <Layout currentLanguage='en' pageName={pageName}>
 	    <article>
 	    	<h2>Manifest - English</h2>
 	    	<Languages pageName={pageName} />
