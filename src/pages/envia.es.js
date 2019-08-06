@@ -15,7 +15,7 @@ export default () => {
             <h2>Participa</h2>
             <Languages pageName={pageName}/>
             <p>Convocatoria de participaciones para el proyecto Mal de Ojo. Se necesita una cantidad suficiente de fotografías para describir una lucha social y un texto breve que la acompañe. Todos los medios fotográficos son válidos y se primará la calidad artística. Fecha límite 16 de noviembre.</p>
-            <p>Utiliza servicios como WeTransfer o Firefox Send para enviarnos tus archivos y los textos necesarios.</p>
+            <p>Utiliza servicios como WeTransfer o Firefox Send para enviarnos tus archivos y los textos necesarios. Si lo necesitas envía un email a envia@proyectomaldeojo.com</p>
             <form
               css="max-width: 500px;"
               action="//formspree.io/envia@proyectomaldeojo.com"

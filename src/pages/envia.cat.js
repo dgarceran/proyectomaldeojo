@@ -15,7 +15,7 @@ export default () => {
             <h2>Inscriu-te</h2>
             <Languages pageName={pageName}/>
             <p>Convocatòria de participacions pel projecte Mal de Ojo. Es necessita una quantitat suficient de fotografies per descriure una lluita social i un breu text que les acompanyi. Tots els mitjans fotogràfics són vàlids i prevaldrà la qualitat artística. Data límit 16 de novembre.</p>  
-            <p>Utilitza serveis com WeTransfer o Firefox Send per enviar-nos els teus arxius.</p>
+            <p>Utilitza serveis com WeTransfer o Firefox Send per enviar-nos els teus arxius. Si ho necessites, envia un email a envia@proyectomaldeojo.com</p>
             <form
               css="max-width: 500px;"
               action="//formspree.io/envia@proyectomaldeojo.com"
